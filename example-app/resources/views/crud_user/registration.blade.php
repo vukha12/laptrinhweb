@@ -12,6 +12,87 @@
     <title>Register</title>
 </head>
 
+<style>
+    *,
+    *:before,
+    *:after {
+        box-sizing: border-box;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font: inherit;
+    }
+
+    img,
+    picture,
+    svg,
+    video {
+        display: block;
+        max-width: 100%;
+    }
+
+    input,
+    select,
+    textarea {
+        background-color: transparent;
+        outline: none;
+    }
+
+    button {
+        cursor: pointer;
+        background-color: transparent;
+        outline: none;
+        border: 0;
+    }
+
+    body {
+        min-height: 100vh;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1;
+    }
+
+    .link-menu {
+        text-decoration: none;
+        color: rgb(14, 12, 12);
+        transition: color 0.3s ease;
+    }
+
+    .link-menu.active {
+        transform: scale(1.1);
+        font-weight: 550;
+    }
+
+    div a:hover {
+        color: rgb(14, 12, 12, 0.7);
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-menu {
+        position: relative;
+    }
+
+    div hr::before {
+        content: "";
+        position: absolute;
+        border-left: 2px solid black;
+        border-right: none;
+        border-top: none;
+        border-bottom: none;
+        top: 0;
+        bottom: 0;
+        height: 30px;
+        margin-top: 14px;
+    }
+</style>
+
 <body>
     <!-- header -->
     <div

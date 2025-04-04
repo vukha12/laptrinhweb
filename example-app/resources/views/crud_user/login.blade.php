@@ -53,16 +53,6 @@
         line-height: 1;
     }
 
-    /* .line::before {
-    content: "";
-    border-left: 1px solid #b3b3b3;
-    margin-right: 10px;
-} */
-    /* .line::after {
-    content: "";
-    border-right: 1px solid #b3b3b3;
-    margin-left: 10px;
-} */
     .link-menu {
         text-decoration: none;
         color: rgb(14, 12, 12);
