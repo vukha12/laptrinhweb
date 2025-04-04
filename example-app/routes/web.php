@@ -29,7 +29,7 @@ Route::get('view', [CrudUserController::class, 'viewUser'])->name('user.viewUser
 Route::get('delete', [CrudUserController::class, 'deleteUser'])->name('use.deleteUser');
 
 Route::get('update', [CrudUserController::class, 'updateUser'])->name('user.updateUser');
-Route::post('ipdate', [CrudUserController::class, 'postUpdateUser'])->name('user.postUpdateUser');
+Route::post('update', [CrudUserController::class, 'postUpdateUser'])->name('user.postUpdateUser');
 
 Route::get('list', [CrudUserController::class, 'listUser'])->name('user.list');
 
